@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tulsi Dhameliya — Graphic Designer. Brand Identity, Poster Design, Digital Creatives." />
+  <title>Tulsi Dhameliya — Graphic Designer</title>
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+
+  <!-- Google Fonts: Bebas Neue + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== LOADING SCREEN ===================== -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-logo">
+      <span class="loader-t">T</span><span class="loader-d">D</span>
+    </div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header id="navbar" role="banner">
+    <a href="#hero" class="nav-logo" aria-label="Tulsi Dhameliya Home">
+      <span class="logo-mark">TD</span>
+    </a>
+
+    <!-- Desktop nav links -->
+    <nav class="nav-links" role="navigation" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#works">Works</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hamburger toggle for mobile -->
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile slide-in menu -->
+  <nav class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#works" class="mobile-link">Works</a>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </nav>
+  <div class="mobile-overlay" id="mobile-overlay" aria-hidden="true"></div>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <main>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero" aria-labelledby="hero-heading">
+      <!-- Grain texture overlay -->
+      <div class="grain" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <p class="hero-eyebrow fade-in">AVAILABLE FOR FREELANCE PROJECTS</p>
+
+        <h1 id="hero-heading" class="hero-heading fade-in delay-1">
+          Hi, I'm<br />
+          <span class="hero-name">Tulsi Dhameliya</span>
+        </h1>
+
+        <p class="hero-tagline fade-in delay-2">
+          I move elements until they feel impossible to replace.
+        </p>
+
+        <p class="hero-sub fade-in delay-3">Placed with purpose.</p>
+
+        <div class="hero-cta fade-in delay-4">
+          <a href="#works" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator fade-in delay-5" aria-hidden="true">
+        <span class="scroll-line"></span>
+        <span class="scroll-label">SCROLL</span>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="section-inner about-grid">
+
+        <!-- Left: heading + accent -->
+        <div class="about-left reveal">
+          <p class="section-label">— 001</p>
+          <h2 id="about-heading" class="section-heading">About<br />Me</h2>
+          <div class="red-rule" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right: copy -->
+        <div class="about-right reveal delay-1">
+          <span class="quote-mark" aria-hidden="true">"</span>
+          <p class="about-body">
+            Some people see empty spaces. I see where ideas belong.
+          </p>
+          <p class="about-body">
+            What started as curiosity slowly became an obsession with balance,
+            placement, typography, and visual emotion. I found myself moving
+            elements again and again — not until they looked good, but until
+            nothing else felt right.
+          </p>
+          <p class="about-body">
+            Today, I design visuals that carry intention behind every detail —
+            from brand identities and posters to digital creatives shaped with
+            precision, minimalism, and story-driven aesthetics.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== SELECTED WORKS SECTION ===== -->
+    <section id="works" aria-labelledby="works-heading">
+      <div class="section-inner">
+        <div class="works-header reveal">
+          <p class="section-label">— 002</p>
+          <h2 id="works-heading" class="section-heading">Selected<br />Works</h2>
+        </div>
+
+        <!-- Category: Brand Identity -->
+        <article class="works-category reveal">
+          <div class="category-header">
+            <h3 class="category-title">Brand Identity</h3>
+            <div class="carousel-arrows" aria-label="Scroll Brand Identity">
+              <button class="arrow-btn arrow-prev" aria-label="Previous">&#8592;</button>
+              <button class="arrow-btn arrow-next" aria-label="Next">&#8594;</button>
+            </div>
+          </div>
+          <div class="carousel" role="region" aria-label="Brand Identity projects">
+            <div class="carousel-track">
+              <!-- Card 1 -->
+              <article class="project-card">
+                <div class="card-img-wrap">
+                  <div class="logo-variation-frame" aria-label="Logo design variations">
+                    <div class="logo-variation-track">
+                      <img src="images/logo1.png" alt="Logo design variation 1" loading="lazy" />
+                      <img src="images/logo2.png" alt="Logo design variation 2" loading="lazy" />
+                      <img src="images/logo3.png" alt="Logo design variation 3" loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+                <div class="logo-variation-dots" aria-label="Logo variation indicators"></div>
+                <div class="card-info">
+                  <h4 class="card-title">Logo Design</h4>
+                  <p class="card-cat">Brand Identity</p>
+                  <p class="card-desc">Minimal wordmark crafted for a modern creative studio.</p>
+                </div>
+              </article>
+              <!-- Card 2 -->
+              <article class="project-card">
+                <div class="card-img-wrap visiting-card-wrap">
+                  <div class="business-card-variation-frame" aria-label="Business card design variations">
+                    <div class="logo-variation-track">
+                      <img src="images/card face 1.png" alt="Business card variation 1" loading="lazy" />
+                      <img src="images/card face 2.png" alt="Business card variation 2" loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+                <div class="logo-variation-dots" aria-label="Business card variation indicators"></div>
+                <div class="card-info">
+                  <h4 class="card-title">Business Card</h4>
+                  <p class="card-cat">Brand Identity</p>
+                  <p class="card-desc">Print-ready card balancing hierarchy and whitespace.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <!-- Category: Product Catalogue Design -->
+        <article class="works-category reveal delay-1">
+          <div class="category-header">
+            <h3 class="category-title">Product Catalogue Design</h3>
+            <div class="carousel-arrows">
+              <button class="arrow-btn arrow-prev" aria-label="Previous">&#8592;</button>
+              <button class="arrow-btn arrow-next" aria-label="Next">&#8594;</button>
+            </div>
+          </div>
+          <div class="carousel" role="region" aria-label="Product Catalogue projects">
+            <div class="carousel-track">
+              <article class="project-card">
+                <div class="card-img-wrap product-catalogue-wrap">
+                  <div class="logo-variation-frame" aria-label="Minimal catalogue variations">
+                    <div class="logo-variation-track">
+                      <img src="images/product page 1.png" alt="Minimal catalogue variation 1" loading="lazy" />
+                      <img src="images/product page 2.png" alt="Minimal catalogue variation 2" loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+                <div class="logo-variation-dots" aria-label="Minimal catalogue variation indicators"></div>
+                <div class="card-info">
+                  <h4 class="card-title">Minimal Spread</h4>
+                  <p class="card-cat">Product Catalogue</p>
+                  <p class="card-desc">Airy, restrained layout letting the product breathe.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <!-- Category: Event Posters -->
+        <article class="works-category reveal">
+          <div class="category-header">
+            <h3 class="category-title">Event Posters</h3>
+            <div class="carousel-arrows">
+              <button class="arrow-btn arrow-prev" aria-label="Previous">&#8592;</button>
+              <button class="arrow-btn arrow-next" aria-label="Next">&#8594;</button>
+            </div>
+          </div>
+          <div class="carousel" role="region" aria-label="Event Poster projects">
+            <div class="carousel-track">
+              <article class="project-card event-poster-card">
+                <div class="card-img-wrap event-poster-wrap">
+                  <img src="images/poster-1.jpg" alt="Cinematic event poster with dramatic lighting" loading="lazy" />
+                </div>
+                <div class="card-info">
+                  <h4 class="card-title">ACHIEVEMENT POSTER</h4>
+                  <p class="card-cat">Event Poster</p>
+                  <p class="card-desc">High-impact composition crafted to spotlight talent and accomplishment.</p>
+                </div>
+              </article>
+              <article class="project-card event-poster-card">
+                <div class="card-img-wrap event-poster-wrap">
+                  <img src="images/poster-2.jpg" alt="Music festival poster with bold visual energy" loading="lazy" />
+                </div>
+                <div class="card-info">
+                  <h4 class="card-title">STAGE PERFORMANCE</h4>
+                  <p class="card-cat">Event Poster</p>
+                  <p class="card-desc">Dynamic composition blending movement, emotion, and event identity.</p>
+                </div>
+              </article>
+              <article class="project-card event-poster-card">
+                <div class="card-img-wrap event-poster-wrap">
+                  <img src="images/poster-3.jpg" alt="Minimalist exhibition poster with editorial feel" loading="lazy" />
+                </div>
+                <div class="card-info">
+                  <h4 class="card-title">SPORTS POSTER</h4>
+                  <p class="card-cat">Event Poster</p>
+                  <p class="card-desc">Editorial-style sports poster emphasizing achievement through clean composition.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <!-- Category: Advertisement Creatives -->
+        <article class="works-category reveal delay-1">
+          <div class="category-header">
+            <h3 class="category-title">Advertisement Creatives</h3>
+            <div class="carousel-arrows">
+              <button class="arrow-btn arrow-prev" aria-label="Previous">&#8592;</button>
+              <button class="arrow-btn arrow-next" aria-label="Next">&#8594;</button>
+            </div>
+          </div>
+          <div class="carousel" role="region" aria-label="Advertisement Creative projects">
+            <div class="carousel-track">
+              <article class="project-card">
+                <div class="card-img-wrap event-poster-wrap">
+                  <img src="images/ad-1.png" alt="Product advertisement with premium visual direction" loading="lazy" />
+                </div>
+                <div class="card-info">
+                  <h4 class="card-title">Product Campaign</h4>
+                  <p class="card-cat">Advertisement</p>
+                  <p class="card-desc">Bold typography paired with compelling product imagery.</p>
+                </div>
+              </article>
+              <article class="project-card">
+                <div class="card-img-wrap event-poster-wrap">
+                  <img src="images/ad-2.png" alt="Digital banner advertisement with clean composition" loading="lazy" /> 
+                </div>
+                <div class="card-info">
+                  <h4 class="card-title">Beverage Promotion</h4>
+                  <p class="card-cat">Advertisement</p>
+                  <p class="card-desc">Bold typography paired with compelling product imagery.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <!-- Category: Social Media Designs -->
+        <article class="works-category reveal">
+          <div class="category-header">
+            <h3 class="category-title">Social Media Designs</h3>
+            <div class="carousel-arrows">
+              <button class="arrow-btn arrow-prev" aria-label="Previous">&#8592;</button>
+              <button class="arrow-btn arrow-next" aria-label="Next">&#8594;</button>
+            </div>
+          </div>
+          <div class="carousel" role="region" aria-label="Social Media Design projects">
+            <div class="carousel-track">
+              <article class="project-card">
+                <div class="card-img-wrap social-media-wrap"> 
+                  <img src="images/social-1.png" alt="Instagram post design with cohesive feed aesthetic" loading="lazy" />
+                </div>
+               
+                <div class="card-info">
+                  <h4 class="card-title">Concept Poster</h4>
+                  <p class="card-cat">Social Media</p>
+                  <p class="card-desc">Abstract visuals exploring time, thought, and motion.</p>
+                </div>
+              </article>
+              <article class="project-card">
+                <div class="card-img-wrap social-media-wrap"> 
+                  <img src="images/social-2.png" alt="Social media story design with bold typography" loading="lazy" />
+                </div>
+                <div class="card-info">
+                  <h4 class="card-title">Typography Poster</h4>
+                  <p class="card-cat">Social Media</p>
+                  <p class="card-desc">Bold typography fused with expressive visual energy.</p>
+                </div>
+              </article>
+              <article class="project-card">
+               <div class="card-img-wrap social-media-wrap"> 
+                  <img src="images/social-3.png" alt="LinkedIn carousel design with professional layout" loading="lazy" />
+                </div>
+                <div class="card-info">
+                  <h4 class="card-title">Editorial Carousel</h4>
+                  <p class="card-cat">Social Media</p>
+                  <p class="card-desc">Contemporary visuals expressing individuality and confidence.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <div class="works-note reveal delay-1">
+          <p>Beyond the showcased work, I also create custom magazine designs, editorial layouts, and personalized print publications.</p>
+          <p>Selected magazine projects are kept private to respect client privacy. Reach out if you'd like to see sample work or discuss a project.</p>
+        </div>
+
+      </div><!-- /section-inner -->
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section id="services" aria-labelledby="services-heading">
+      <div class="section-inner">
+        <div class="services-header reveal">
+          <p class="section-label">— 003</p>
+          <h2 id="services-heading" class="section-heading">What I<br />Create</h2>
+        </div>
+
+        <ul class="services-list" role="list">
+          <li class="service-item reveal" role="listitem">
+            <span class="service-icon" aria-hidden="true">◈</span>
+            <div>
+              <h3 class="service-name">Brand Identity Design</h3>
+              <p class="service-desc">Logos, visual systems, and identity guidelines built to last.</p>
+            </div>
+          </li>
+          <li class="service-item reveal delay-1" role="listitem">
+            <span class="service-icon" aria-hidden="true">◈</span>
+            <div>
+              <h3 class="service-name">Poster Design</h3>
+              <p class="service-desc">Cinematic compositions for events, campaigns, and culture.</p>
+            </div>
+          </li>
+          <li class="service-item reveal delay-2" role="listitem">
+            <span class="service-icon" aria-hidden="true">◈</span>
+            <div>
+              <h3 class="service-name">Advertisement Design</h3>
+              <p class="service-desc">Scroll-stopping creatives for digital and print campaigns.</p>
+            </div>
+          </li>
+          <li class="service-item reveal delay-1" role="listitem">
+            <span class="service-icon" aria-hidden="true">◈</span>
+            <div>
+              <h3 class="service-name">Social Media Creatives</h3>
+              <p class="service-desc">Feed posts, stories, and carousels with visual cohesion.</p>
+            </div>
+          </li>
+          <li class="service-item reveal delay-2" role="listitem">
+            <span class="service-icon" aria-hidden="true">◈</span>
+            <div>
+              <h3 class="service-name">UI/UX Visual Design</h3>
+              <p class="service-desc">Interface visuals and screen-ready layouts with purpose.</p>
+            </div>
+          </li>
+          <li class="service-item reveal" role="listitem">
+            <span class="service-icon" aria-hidden="true">◈</span>
+            <div>
+              <h3 class="service-name">Typography &amp; Layout Design</h3>
+              <p class="service-desc">Editorial layouts where every glyph earns its place.</p>
+            </div>
+          </li>
+          <li class="service-item reveal delay-1" role="listitem">
+            <span class="service-icon" aria-hidden="true">◈</span>
+            <div>
+              <h3 class="service-name">Magazine Design</h3>
+              <p class="service-desc">Crafted personalized magazine layouts with creative storytelling, typography, and editorial design.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS & TOOLS SECTION ===== -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="section-inner">
+        <div class="skills-header reveal">
+          <p class="section-label">— 004</p>
+          <h2 id="skills-heading" class="section-heading">Skills &amp;<br />Tools</h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skills column -->
+          <div class="skills-col reveal">
+            <h3 class="skills-col-label">Skills</h3>
+            <div class="chips-wrap" role="list" aria-label="Design skills">
+              <span class="chip" role="listitem">Branding</span>
+              <span class="chip" role="listitem">Typography</span>
+              <span class="chip" role="listitem">Layout Design</span>
+              <span class="chip" role="listitem">Visual Storytelling</span>
+              <span class="chip" role="listitem">Creative Direction</span>
+              <span class="chip" role="listitem">Social Media Design</span>
+              <span class="chip" role="listitem">UI/UX Basics</span>
+              <span class="chip" role="listitem">Attention to Detail</span>
+              <span class="chip" role="listitem">Visual Balance</span>
+            </div>
+          </div>
+
+          <!-- Tools column -->
+          <div class="skills-col reveal delay-2">
+            <h3 class="skills-col-label">Tools</h3>
+            <div class="chips-wrap" role="list" aria-label="Design tools">
+              <span class="chip chip-tool" role="listitem">Figma</span>
+              <span class="chip chip-tool" role="listitem">Canva</span>
+              <span class="chip chip-tool" role="listitem">Photoshop</span>
+              <span class="chip chip-tool" role="listitem">Adobe Express</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <!-- Subtle watermark -->
+      <div class="watermark" aria-hidden="true">TD</div>
+      <div class="section-inner contact-inner">
+        <div class="contact-content reveal">
+          <p class="section-label">— 005</p>
+          <h2 id="contact-heading" class="section-heading contact-heading">
+            Let's Create<br />Something Visual
+          </h2>
+          <p class="contact-sub">
+            Available for freelance projects, collaborations, and creative work.
+          </p>
+
+          <p class="contact-cta-label">Click here to contact</p>
+
+          <div class="contact-links">
+            <a href="mailto:tulsidhameliya66@gmail.com" class="contact-link" aria-label="Email Tulsi Dhameliya">
+              <span class="contact-link-label">Email</span>
+              <span class="contact-link-val">tulsidhameliya66@gmail.com ↗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/tulsidhameliya" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="Tulsi Dhameliya on LinkedIn (opens in new tab)">
+              <span class="contact-link-label">LinkedIn</span>
+              <span class="contact-link-val">linkedin.com/in/tulsidhameliya ↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- /main -->
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer role="contentinfo">
+    <div class="footer-divider" aria-hidden="true"></div>
+    <div class="footer-inner">
+      <span class="footer-logo" aria-label="Tulsi Dhameliya logo mark">TD</span>
+      <div class="footer-text">
+        <p class="footer-line1">Minimal visuals. Meaningful impact.</p>
+        <p class="footer-line2">Designed &amp; created by Tulsi Dhameliya</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
